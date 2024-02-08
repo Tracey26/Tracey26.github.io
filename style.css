@@ -1,7 +1,42 @@
-body {
-    background-image: url('https://www.vangoghgallery.com/img/starry_night_full.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+body { 
+  font-family: Rubik Doodle Shadow;
+  background-color:rgb(229, 212, 255);
+}
+
+nav {
+  background-color: black;
+  position: relative;
+  display: flex;
+  justify-items: center;
+}
+
+li {
+  color: rgb(255, 255, 255);
+  list-style: none;
+  padding: 3px;
+  display: inline;
+  padding-right: 10px;
+  
+}
+
+li:hover {
+	border-bottom: 3px solid rgb(208, 162, 247);
+	padding-bottom:  5px;
+	cursor: pointer;
+}
+
+ul, a {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+}
