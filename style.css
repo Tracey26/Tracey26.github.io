@@ -13,6 +13,10 @@ nav {
   border-radius: 10px;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 li {
   color: rgb(255, 255, 255);
   list-style: none;
@@ -28,7 +32,7 @@ li:hover {
 	cursor: pointer;
 }
 
-a {
+ul {
   text-decoration: none;
 }
 
@@ -38,6 +42,15 @@ h1 {
   font-size: 50px;
 }
 
-h3, h4 {
+h3,h4 {
   font-family: 'Courier New', Courier, monospace;
+}
+
+
+a {
+  color: rgb(187, 90, 187);
+}
+
+img{ 
+  padding-top: 5px;
 }
