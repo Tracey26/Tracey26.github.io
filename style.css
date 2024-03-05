@@ -123,6 +123,7 @@ input[type=text] {
   border-bottom: 2px solid rgb(151, 173, 248);
   background-color: #d9dcff;
   transition: width 0.4s ease-in-out;
+  
 }
 
 input[type=text]:focus {
@@ -142,6 +143,10 @@ input[type=button], input[type=submit], input[type=reset] {
   border-radius: 12px
 }
 
+input[type=submit]:hover {
+  background-color: #baa8fc;
+}
+
 input[type=text]:hover{
   background-color: #baa8fc;
   color: white;
@@ -153,4 +158,8 @@ form {
 
 h5 {
   font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+
 }
